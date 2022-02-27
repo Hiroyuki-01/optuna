@@ -929,6 +929,9 @@ class Study:
         .. seealso::
 
             See :func:`~optuna.trial.create_trial` for how to create trials.
+            Please refer to :ref:`specify_params` for the tutorial of specifying hyperparameters
+            manually.
+
 
         Args:
             trial: Trial to add.
@@ -1140,7 +1143,7 @@ def create_study(
 
     See also:
         :func:`optuna.create_study` is an alias of :func:`optuna.study.create_study`.
-        
+
         The :ref:`rdb` tutorial provides use-cases examples.
 
     """
